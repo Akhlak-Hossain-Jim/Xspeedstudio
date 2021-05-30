@@ -1,10 +1,18 @@
 body {
-  background-color: rgb(53, 37, 207);
+  background-image: url(../images/BG\ image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top left;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+main {
+  background-color: rgba(54, 37, 207, 0.833);
   width: 100vw;
   height: 100vh;
 }
 .header {
-  background-image: url(../images/Bg_image.png);
   padding: 15px;
   padding-bottom: 0;
   position: sticky;
@@ -12,7 +20,7 @@ body {
   left: 0;
   width: 100%;
   z-index: 10;
-  border-bottom: solid 1px rgb(94, 94, 94);
+  border-bottom: solid 1px rgba(94, 94, 94, 0.7);
   transition: all 0.5s;
 }
 
@@ -63,20 +71,25 @@ body {
 }
 section {
   color: #fff;
+  position: relative;
+  height: 80%;
+  display: grid;
+  place-items: center;
 }
 h4 {
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 40px;
 }
 h3 {
-  font-size: 30px;
+  font-size: 25px;
+  font-weight: 900;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 10px;
 }
 h1 {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
   font-weight: 900;
 }
@@ -87,23 +100,48 @@ h1 {
 }
 .buttons button {
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #f45587;
   color: #fff;
   font-weight: 600;
   border-radius: 10px;
-  padding: 10px;
+  padding: 10px 20px;
   border: none;
   margin: 10px;
 }
 .buttons button:last-child {
   background-color: transparent;
   color: snow;
+  width: fit-content;
+}
+.buttons button:last-child span {
+  background-color: snow;
+  color: #f45587;
+  display: grid;
+  place-content: center;
+  height: 24px;
+  width: 24px;
+  font-size: 20px;
+  font-weight: 900;
+  border-radius: 50%;
 }
 div.centered {
   display: flex;
   align-self: center;
   justify-content: center;
   margin-top: 40px;
+}
+img.absolute {
+  position: absolute;
+}
+img.absolute.right {
+  right: 0;
+  top: 50px;
+}
+img.absolute.shape_bottom {
+  right: 50px;
+  bottom: -50px;
 }
 
 /* .header .navbar .logo {
