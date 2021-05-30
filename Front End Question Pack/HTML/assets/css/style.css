@@ -1,0 +1,171 @@
+body {
+  background-color: rgb(53, 37, 207);
+  width: 100vw;
+  height: 100vh;
+}
+.header {
+  background-image: url(../images/Bg_image.png);
+  padding: 15px;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.5s;
+}
+
+.header.fixedMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header.fixedMenu .logo img {
+  max-width: 100px;
+  margin-left: 40px;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+}
+.header nav a {
+  color: #fff;
+  margin: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+.header nav a.active {
+  border-bottom: solid 1px #f45587;
+  color: #f45587;
+}
+.header nav input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.header nav button {
+  display: flex;
+  background-color: #f45587;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto 40px auto 10px;
+  border: none;
+}
+section {
+  color: #fff;
+}
+h4 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 40px;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-weight: 900;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons button {
+  display: flex;
+  background-color: #f45587;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  margin: 10px;
+}
+.buttons button:last-child {
+  background-color: transparent;
+}
+div.centered {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* .header .navbar .logo {
+  color: #fff;
+}
+.header .navbar .logo img {
+  transition: all 0.5s;
+  max-width: 135px;
+  width: 100%;
+}
+
+.header .navbar .mainMenu .navbar-nav {
+  align-items: center;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item {
+  margin-right: 50px;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .custom-button {
+  background-color: #f45587;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item a {
+  color: snow;
+  text-decoration: none;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item:last-child {
+  margin-right: 0;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 18px;
+  line-height: 20px;
+  padding: 0;
+  font-weight: 500;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .nav-link-home {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f45587;
+}
+.header .navbar .mainMenu .navbar-nav .nav-item .nav-link:hover {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f45587;
+}
+
+.header .info {
+  margin: 200px;
+  text-align: center;
+  color: gainsboro;
+}
+
+.header .info .bottom-buttons .custom-button {
+  background-color: #f45587;
+  padding: 3px 8px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.header .info .bottom-buttons .custom-button img {
+  height: 10px;
+  width: 10px;
+}
+.header .info .bottom-buttons .custom-button a {
+  color: snow;
+  text-decoration: none;
+}
+
+.header img {
+  margin-left: 50%;
+} */
