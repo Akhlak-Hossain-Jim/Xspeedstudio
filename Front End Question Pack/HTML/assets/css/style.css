@@ -6,11 +6,13 @@ body {
 .header {
   background-image: url(../images/Bg_image.png);
   padding: 15px;
+  padding-bottom: 0;
   position: sticky;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 10;
+  border-bottom: solid 1px rgb(94, 94, 94);
   transition: all 0.5s;
 }
 
@@ -30,7 +32,9 @@ body {
 }
 .header nav a {
   color: #fff;
+  font-size: 14px;
   margin: 10px;
+  margin-bottom: -1px;
   font-weight: 600;
   text-decoration: none;
   padding-bottom: 20px;
@@ -44,7 +48,8 @@ body {
   outline: none;
   background-color: transparent;
   color: #fff;
-  padding-bottom: 20px;
+  width: 100px;
+  padding-bottom: 10px;
 }
 .header nav button {
   display: flex;
@@ -92,6 +97,7 @@ h1 {
 }
 .buttons button:last-child {
   background-color: transparent;
+  color: snow;
 }
 div.centered {
   display: flex;
